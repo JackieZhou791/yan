@@ -6,5 +6,3 @@
  * and open the template in the editor.
  */
 
-require_once __DIR__ . '/../src/bootstrap.php';
-

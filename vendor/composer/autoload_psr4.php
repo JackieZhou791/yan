@@ -6,9 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Yan\\' => array($baseDir . '/src'),
     'Whoops\\' => array($vendorDir . '/filp/whoops/src/Whoops'),
-    'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
-    'Symfony\\Component\\HttpFoundation\\' => array($vendorDir . '/symfony/http-foundation'),
+    'Http\\' => array($vendorDir . '/patricklouys/http/src'),
     'FastRoute\\' => array($vendorDir . '/nikic/fast-route/src'),
     'Auryn\\' => array($vendorDir . '/rdlowrey/auryn/lib'),
 );

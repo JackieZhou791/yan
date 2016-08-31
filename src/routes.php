@@ -6,5 +6,7 @@
  * and open the template in the editor.
  */
 
-require_once __DIR__ . '/../src/bootstrap.php';
-
+return [
+    ['GET', '/', ['Yan\Application\Controllers\Homepage', 'show']],
+    ['GET', '/test', ['Yan\Application\Controllers\Homepage', 'test']],
+];
